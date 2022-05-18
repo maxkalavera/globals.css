@@ -29,7 +29,11 @@
   --content-lg: 64.0rem;   /* 64.0rem 1024px */
   --content-xl: 80.0rem;   /* 80.0rem 1280px */
   --content-xxl: 120.0rem; /* 120.0rem 1920px */
-  --gap: 1rem;
+  --gap-sm: 1rem;
+  --gap-md: 2rem;
+  --gap-lg: 4rem;
+  --gap-xl: 8rem;
+  --gap-xxl: 16rem;
 }
 
 body {
