@@ -1,4 +1,3 @@
-/* Don't forget to use a normalize.css file */
 /* Google fonts: <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Roboto|PT+Serif"> */
 
 :root {
@@ -19,11 +18,22 @@
   --gray-800: #424242;
   --gray-900: #212121;
 
-  --primary: #E93D44;
+  --primary: var(--gray-700);
   --primary-contrast: var(--white);
 
   --text-color: var(--gray-900);
-  font-size: 14px;
+  font-size: 16px;
+
+  --content-sm: 35.5rem;   /* 35.5rem 568px */
+  --content-md: 48.0rem;   /* 48.0rem 768px */
+  --content-lg: 64.0rem;   /* 64.0rem 1024px */
+  --content-xl: 80.0rem;   /* 80.0rem 1280px */
+  --content-xxl: 120.0rem; /* 120.0rem 1920px */
+  --gap-sm: 1rem;  /* 1rem 16px */
+  --gap-md: 2rem;  /* 2rem 32px */
+  --gap-lg: 3rem;  /* 3rem 48px */
+  --gap-xl: 3rem;  /* 3rem 48px */
+  --gap-xxl: 3rem; /* 3rem 48px */
 }
 
 body {
@@ -34,166 +44,146 @@ body {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
 }
 
 .primary-h2 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 2.0rem;
 }
 
 .primary-h3 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;  
+  font-size: 1.5rem;
 }
 
 .primary-h4 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.0rem;
 }
 
 .primary-h5 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
 }
 
 .primary-p {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.0rem;
 }
 
 .primary-small {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
 }
 
 .secondary-h1 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.5rem;
 }
 
 .secondary-h2 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 2.0rem;
 }
 
 .secondary-h3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.5rem;
 }
 
 .secondary-h4 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.0rem;
 }
 
 .secondary-h5 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
 }
 
 .secondary-p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 1.0rem;
 }
 
 .secondary-small {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
 }
 
 .tertiary-h1 {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
-  line-height: 47px;
+  font-size: 2.5rem;
 }
 
 .tertiary-h2 {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 31px;
+  font-size: 2.0rem;
 }
 
 .tertiary-h3 {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
+  font-size: 1.5rem;
 }
 
 .tertiary-h4 {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 1.0rem;
 }
 
 .tertiary-h5 {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
 }
 
 .tertiary-p {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 1.0rem;
 }
 
 .tertiary-small {
   font-family: 'PT Serif';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.75rem;
 }
