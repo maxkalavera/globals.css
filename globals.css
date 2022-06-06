@@ -1,4 +1,4 @@
-/* Google fonts: <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Roboto|PT+Serif"> */
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans|Roboto|PT+Serif&display=swap'); */
 
 :root {
   --black: #000000;
@@ -20,10 +20,9 @@
 
   --primary: var(--gray-700);
   --primary-contrast: var(--white);
-
   --text-color: var(--gray-900);
-  font-size: 16px;
 
+  font-size: 16px;
   --content-sm: 35.5rem;   /* 35.5rem 568px */
   --content-md: 48.0rem;   /* 48.0rem 768px */
   --content-lg: 64.0rem;   /* 64.0rem 1024px */
@@ -34,6 +33,12 @@
   --gap-lg: 4rem;
   --gap-xl: 8rem;
   --gap-xxl: 16rem;
+  
+  --header-height: 72px;
+  --footer-height: 0px;
+  --content-container-padding: var(--gap-md);
+  --content-container-min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  --content-height: calc(var(--content-container-min-height) - calc(2 * var(--content-container-padding)));
 }
 
 body, h1, h2, h3, h4, h5, p, small {
