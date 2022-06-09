@@ -45,6 +45,10 @@ body, h1, h2, h3, h4, h5, p, small {
   margin: 0px;
 }
 
+body, html {
+  min-height: -webkit-fill-available;
+}
+
 .primary-h1 {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
