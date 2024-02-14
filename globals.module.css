@@ -63,7 +63,6 @@
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 2.75rem;
-  color: var(--text-color);
 }
 
 .primary-h2 {
@@ -71,7 +70,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2.0rem;
-  color: var(--text-color);
 }
 
 .primary-h3 {
@@ -79,7 +77,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--text-color);
 }
 
 .primary-h4 {
@@ -87,7 +84,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.0rem;
-  color: var(--text-color);
 }
 
 .primary-h5 {
@@ -95,7 +91,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 0.75rem;
-  color: var(--text-color);
 }
 
 .primary-p {
@@ -103,7 +98,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.0rem;
-  color: var(--text-color);
 }
 
 .primary-small {
@@ -111,7 +105,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 0.75rem;
-  color: var(--text-color);
 }
 
 .secondary-h1 {
@@ -119,7 +112,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
-  color: var(--text-color);
 }
 
 .secondary-h2 {
@@ -127,7 +119,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2.0rem;
-  color: var(--text-color);
 }
 
 .secondary-h3 {
@@ -135,7 +126,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--text-color);
 }
 
 .secondary-h4 {
@@ -143,7 +133,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.0rem;
-  color: var(--text-color);
 }
 
 .secondary-h5 {
@@ -151,7 +140,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 0.75rem;
-  color: var(--text-color);
 }
 
 .secondary-p {
@@ -159,7 +147,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.0rem;
-  color: var(--text-color);
 }
 
 .secondary-small {
@@ -167,7 +154,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 0.75rem;
-  color: var(--text-color);
 }
 
 .tertiary-h1 {
@@ -175,7 +161,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
-  color: var(--text-color);
 }
 
 .tertiary-h2 {
@@ -183,7 +168,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2.0rem;
-  color: var(--text-color);
 }
 
 .tertiary-h3 {
@@ -191,7 +175,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
-  color: var(--text-color);
 }
 
 .tertiary-h4 {
@@ -199,7 +182,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 1.0rem;
-  color: var(--text-color);
 }
 
 .tertiary-h5 {
@@ -207,7 +189,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 0.75rem;
-  color: var(--text-color);
 }
 
 .tertiary-p {
@@ -215,7 +196,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.0rem;
-  color: var(--text-color);
 }
 
 .tertiary-small {
@@ -223,5 +203,4 @@
   font-style: normal;
   font-weight: 400;
   font-size: 0.75rem;
-  color: var(--text-color);
 }
