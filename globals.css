@@ -45,6 +45,10 @@ body, h1, h2, h3, h4, h5, p, small {
   margin: 0px;
 }
 
+h1, h2, h3, h4, h5, p, small {
+  color: var(--text-color);
+}
+
 body, html {
   min-height: -webkit-fill-available;
 }
