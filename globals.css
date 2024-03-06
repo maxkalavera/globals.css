@@ -23,11 +23,18 @@
   --text-color: var(--gray-900);
 
   font-size: 16px;
+  --content-sm: 24.0rem;   /* 35.5rem 568px */
   --content-sm: 35.5rem;   /* 35.5rem 568px */
   --content-md: 48.0rem;   /* 48.0rem 768px */
   --content-lg: 64.0rem;   /* 64.0rem 1024px */
   --content-xl: 80.0rem;   /* 80.0rem 1280px */
   --content-xxl: 120.0rem; /* 120.0rem 1920px */
+  --frame-xs: 12.0rem; /* ~192px */
+  --frame-sm: 16.0rem;  /* ~256px */
+  --frame-md: 24.0rem;  /* ~384px */
+  --frame-lg: 36.0rem;  /* ~576px */
+  --frame-xl: 45.0rem;  /* ~720px */
+  --gap-xs: 0.5rem;
   --gap-sm: 1rem;
   --gap-md: 2rem;
   --gap-lg: 4rem;
