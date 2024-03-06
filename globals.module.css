@@ -23,11 +23,18 @@
   --text-color: var(--gray-900);
 
   font-size: 16px;
+  --content-sm: 24.0rem;   /* 35.5rem 568px */
   --content-sm: 35.5rem;   /* 35.5rem 568px */
   --content-md: 48.0rem;   /* 48.0rem 768px */
   --content-lg: 64.0rem;   /* 64.0rem 1024px */
   --content-xl: 80.0rem;   /* 80.0rem 1280px */
   --content-xxl: 120.0rem; /* 120.0rem 1920px */
+  --frame-xs: 12.0rem; /* ~192px */
+  --frame-sm: 16.0rem;  /* ~256px */
+  --frame-md: 24.0rem;  /* ~384px */
+  --frame-lg: 36.0rem;  /* ~576px */
+  --frame-xl: 45.0rem;  /* ~720px */
+  --gap-xs: 0.5rem;
   --gap-sm: 1rem;
   --gap-md: 2rem;
   --gap-lg: 4rem;
@@ -39,6 +46,10 @@
   --content-container-padding: var(--gap-md);
   --content-container-min-height: calc(100vh - var(--header-height) - var(--footer-height));
   --content-height: calc(var(--content-container-min-height) - calc(2 * var(--content-container-padding)));
+
+  --primary-font: 'Work Sans', sans-serif;
+  --secondary-font: 'Roboto', serif;
+  --tertiary-font: var(--tertiary-font);
 }
 
 .no-margin body, 
@@ -58,149 +69,149 @@
 }
 
 .primary-h1 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
-  line-height: 2.75rem;
+  line-height: 2.90rem;
 }
 
 .primary-h2 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 2.0rem;
 }
 
 .primary-h3 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
 .primary-h4 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 1.0rem;
 }
 
 .primary-h5 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.90rem;
 }
 
 .primary-p {
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 1.0rem;
 }
 
 .primary-small {
-  font-family: 'Work Sans', sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.90rem;
 }
 
 .secondary-h1 {
-  font-family: 'Roboto', serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
 }
 
 .secondary-h2 {
-  font-family: 'Roboto', serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 2.0rem;
 }
 
 .secondary-h3 {
-  font-family: 'Roboto', serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
 .secondary-h4 {
-  font-family: 'Roboto', serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 1.0rem;
 }
 
 .secondary-h5 {
-  font-family: 'Roboto';
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.90rem;
 }
 
 .secondary-p {
-  font-family: 'Roboto', serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 1.0rem;
 }
 
 .secondary-small {
-  font-family: 'Roboto', serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.90rem;
 }
 
 .tertiary-h1 {
-  font-family: 'PT Serif', serif;
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 2.5rem;
 }
 
 .tertiary-h2 {
-  font-family: 'PT Serif', serif;
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 2.0rem;
 }
 
 .tertiary-h3 {
-  font-family: 'PT Serif', serif;
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
 }
 
 .tertiary-h4 {
-  font-family: 'PT Serif', serif;
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 1.0rem;
 }
 
 .tertiary-h5 {
-  font-family: 'PT Serif', serif;
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.90rem;
 }
 
 .tertiary-p {
-  font-family: 'PT Serif', serif;
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 1.0rem;
 }
 
 .tertiary-small {
-  font-family: 'PT Serif', serif;
+  font-family: var(--tertiary-font);
   font-style: normal;
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.90rem;
 }
